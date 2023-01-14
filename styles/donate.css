@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -16,6 +17,7 @@
     font-weight: 500;
     margin-bottom: 10px;
     color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
 .header {
@@ -38,7 +40,8 @@
     border: 0;
     padding: 18px 35px;
 }
-.banner{
+
+.banner {
     position: absolute;
     top: 300px;
     left: 50%;
@@ -47,17 +50,124 @@
 }
 
 /* Main styles */
-.main{
+.main {
     text-align: center;
 }
+
 /* about section styles */
 .about {
+    margin-top: 130px;
+}
+
+.section-title {
     margin-top: 130px;
     font-weight: 700;
     font-size: 45px;
     color: #121212;
 }
 
-.section-title {}
+.section-description {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
 
-.section-description {}
+}
+
+.about-info-conatiner {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+
+}
+
+.about-info {
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding: 43px 22px;
+}
+
+.amount {
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+
+.Amount-tk {
+    font-size: 18px;
+    color: #B3B3B3;
+
+}
+
+.line {
+    border-bottom: 1px solid #DADADA;
+    display: block;
+    height: 0px;
+    width: 765px;
+    margin: 0 auto;
+    left: 338px;
+    top: 1199.5px;
+    margin-bottom: 30px;
+}
+
+.amount-title {
+    margin-bottom: 9.5px;
+    margin-top: 60px;
+}
+
+.Article {
+    max-width: 691px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.title-description {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+/* Projects styles */
+
+.Container-projects {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.project-container {
+    max-width: 360px;
+    max-height: 352px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+
+
+
+}
+
+.project-title {
+    margin-top: 31.73px;
+    margin-bottom: 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+
+.project-description {
+    text-align: left;
+    color: #707070;
+}
+
+.image-icon {
+    display: block;
+}
+
