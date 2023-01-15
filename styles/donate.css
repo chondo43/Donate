@@ -242,14 +242,51 @@
 
 .Contact {
     background: #FFF4D6;
-    max-width: 809px;
     margin: 0 auto;
     display: inline-table;
+    padding: 76px 189px;
+}
+
+.mail {
+    color: #AA9F9F;
+    ;
+    font-weight: 500;
+    font-size: 16px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    border-radius: 5px 0px 0px 5px;
+    padding: 14px 17px;
 }
 
 .button-primary {
-    color: #FFFFFF;;
+    color: #FFFFFF;
     background: #FF5959;
     border: 1px solid #000000;
     border-radius: 0px 5px 5px 0px;
+    padding: 14px 42px;
 }
+
+/* Footer part styles */
+.footer-part {
+    background: #0B0D17;;
+    margin: 0 auto;
+    padding: 43px 650px;
+    text-align: center;
+}
+
+.footer-title {
+    margin-top: 43px;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+}
+
+.footer-sub-title {
+    margin-top: 24px;
+    margin-bottom: 42px;
+   color:  #D9DBE1;
+   font-size: 14px;
+
+}
+
