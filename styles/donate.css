@@ -142,13 +142,27 @@
     justify-content: center;
 }
 
-.project-container {
+.project-container-1 {
     max-width: 360px;
     max-height: 352px;
     background-color: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     padding: 30px;
 
+}
+.project-container-2{
+    max-width: 360px;
+    max-height: 352px;
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+}
+.project-container-3{
+    max-width: 360px;
+    max-height: 352px;
+    background-color: rgba(255, 255, 204, 0.701);
+    border-radius: 5px;
+    padding: 30px;
 }
 
 .project-title {
