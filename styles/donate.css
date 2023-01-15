@@ -145,7 +145,7 @@
 .project-container {
     max-width: 360px;
     max-height: 352px;
-    background: rgba(79, 157, 166, 0.1);
+    background-color: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     padding: 30px;
 
@@ -268,7 +268,7 @@
 
 /* Footer part styles */
 .footer-part {
-    background: #0B0D17;;
+    background: #0B0D17;
     margin: 0 auto;
     padding: 43px 650px;
     text-align: center;
